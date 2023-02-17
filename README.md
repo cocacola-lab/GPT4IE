@@ -1,6 +1,6 @@
 # GPT4IE
 ## Description (website link in upper right corner; Open-AI key we offered in bottom.)
-GPT4IE (GPT for Information Extraction) is a open-source and powerful IE tool [demo](cocacola-lab.github.io/GPT4IE/). Enhanced by GPT3.5 and prompting, it aims to automatically extract **structured information** from a **raw sentence** and make a valuable in-depth analysis of the input sentence. Harnessing valuable structured information helps corporations make incisive and business–improving decisions.
+GPT4IE (GPT for Information Extraction) is a open-source and powerful IE tool [demo](https://cocacola-lab.github.io/GPT4IE/). Enhanced by GPT3.5 and prompting, it aims to automatically extract **structured information** from a **raw sentence** and make a valuable in-depth analysis of the input sentence. Harnessing valuable structured information helps corporations make incisive and business–improving decisions.
 
 We support the following functions:
 | Task | Name| Lauguages |
