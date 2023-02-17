@@ -78,3 +78,5 @@ PS: * denote optional, we set default value for it. But for better extraction, y
 1. Run `npm install` to download required dependencies.
 2. Run `npm run start`. GPT4IE should open up in a new browser tab.
 3. note: node-version v14.17.4  npm-version 6.14.14
+4. you need have an Open-AI key, for welfare, we give one **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**
+
