@@ -12,10 +12,10 @@ We support the following functions:
 ### RE
 This task aims to extract triples from plain texts, such as **(China, capital, Beijing)** , **(《如懿传》, 主演, 周迅)**.
 #### Input
-- sentence
-- relation type list (rtl)*
-- subject type list (stl)*
-- object type list (otl)*
+- sentence: a plain text.
+- relation type list (rtl)* : ['relation type 1', 'relation type 2', ...]
+- subject type list (stl)* : ['subject type 1', 'subject type 2', ...]
+- object type list (otl)* : ['object type 1', 'object type 2', ...]
 
 PS: * denote optional, we set default value for them. But for better extraction, you should specify the three list according to application scenarios.
 #### Examples
