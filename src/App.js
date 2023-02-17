@@ -123,7 +123,10 @@ function App() {
 
             //updateGraph(updates);
             const reg = /\(.*?\)/g; //g表示全局搜索，会进行多次match
-            const update = text.match(reg);
+            var update = text.match(reg);
+            if(! update){
+              update = [text];
+            }
             console.log(update);
             console.log(update[0])
             updateStructure(update);
@@ -204,7 +207,10 @@ function App() {
 
             //updateGraph(updates);
             const reg = /\(.*?\)/g; //g表示全局搜索，会进行多次match
-            const update = text.match(reg);
+            var update = text.match(reg);
+            if(! update){
+              update = [text];
+            }
             console.log(update);
             console.log(update[0])
             updateStructure(update);
@@ -284,7 +290,10 @@ function App() {
 
             //updateGraph(updates);
             const reg = /[^,{]+?:[\x20]*\{.*?\}/g; //g表示全局搜索，会进行多次match
-            const update = text.match(reg);
+            var update = text.match(reg);
+            if(! update){
+              update = [text];
+            }
             console.log(update);
             console.log(update[0])
             updateStructure(update);
