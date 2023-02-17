@@ -22,7 +22,7 @@ PS: * denote optional, we set default value for them. But for better extraction,
 **sentence:** Bob worked for Google in Beijing, the capital of China.  
 **rtl:** ['location-located_in', 'administrative_division-country', 'person-place_lived', 'person-company', 'person-nationality', 'company-founders', 'country-administrative_divisions', 'person-children', 'country-capital', 'deceased_person-place_of_death', 'neighborhood-neighborhood_of', 'person-place_of_birth']  
 **stl:** ['organization', 'person', 'location', 'country']  
-**otl:** ['person', 'location', 'country', 'organization', 'city'] 
+**otl:** ['person', 'location', 'country', 'organization', 'city']  
 **ouptut:**  
 ![ouptut](examples/RE-eng.jpg)  
 
