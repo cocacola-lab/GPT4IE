@@ -1,0 +1,5 @@
+List of known entity types: $prompt1.
+
+Given a sentence: "$prompt"
+
+Which entities may be included in a given sentence, please answer in the form (entity type, entity content):
