@@ -48,7 +48,7 @@ PS: * denote optional, we set default value for it. But for better extraction, y
 ![ouptut](examples/NER-eng.jpg)  
 
 **sentence:** 在过去的五年中，致公党在邓小平理论指引下，遵循社会主义初级阶段的基本路线，努力实践致公党十大提出的发挥参政党职能、加强自身建设的基本任务。   
-**rtl:** ['组织机构', '地点', '人物']  
+**etl:** ['组织机构', '地点', '人物']  
 **ouptut:**  
 ![ouptut](examples/NER-zh.jpg) 
 
@@ -61,15 +61,15 @@ This task aims to extract event from plain texts, such as **{Life-Divorce: {Pers
 
 PS: * denote optional, we set default value for it. But for better extraction, you should specify the list according to application scenarios.
 #### Examples
-**sentence:** Bob worked for Google in Beijing, the capital of China.  
-**etl:**  ['LOC', 'MISC', 'ORG', 'PER']  
+**sentence:** Yesterday Bob and his wife got divorced in Guangzhou.  
+**etl:**  {'Personnel:Elect': ['Person', 'Entity', 'Position', 'Time', 'Place'], 'Business:Declare-Bankruptcy': ['Org', 'Time', 'Place'], 'Justice:Arrest-Jail': ['Person', 'Agent', 'Crime', 'Time', 'Place'], 'Life:Divorce': ['Person', 'Time', 'Place'], 'Life:Injure': ['Agent', 'Victim', 'Instrument', 'Time', 'Place']}  
 **ouptut:**  
-![ouptut](examples/NER-eng.jpg)  
+![ouptut](examples/EE-eng.jpg)  
 
-**sentence:** 在过去的五年中，致公党在邓小平理论指引下，遵循社会主义初级阶段的基本路线，努力实践致公党十大提出的发挥参政党职能、加强自身建设的基本任务。   
-**rtl:** ['组织机构', '地点', '人物']  
+**sentence:** 在2022年卡塔尔世界杯决赛中，阿根廷以点球大战险胜法国。  
+**etl:** {'组织行为-罢工': ['时间', '所属组织', '罢工人数', '罢工人员'], '竞赛行为-晋级': ['时间', '晋级方', '晋级赛事'], '财经/交易-涨停':['时间', '涨停股票'] , '组织关系-解雇': ['时间', '解雇方', '被解雇人员']}  
 **ouptut:**  
-![ouptut](examples/NER-zh.jpg) 
+![ouptut](examples/EE-zh.jpg) 
 
 ---
 
