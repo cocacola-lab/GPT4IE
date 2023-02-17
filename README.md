@@ -24,7 +24,7 @@ PS: * denote optional, we set default value for them. But for better extraction,
 **stl:** ['organization', 'person', 'location', 'country']  
 **otl:** ['person', 'location', 'country', 'organization', 'city'] 
 **ouptut:**  
-![ouptut](examples/RE-zh.jpg)  
+![ouptut](examples/RE-eng.jpg)  
 
 **sentence:** 第五部：《如懿传》《如懿传》是一部古装宫廷情感电视剧，由汪俊执导，周迅、霍建华、张钧甯、董洁、辛芷蕾、童瑶、李纯、邬君梅等主演。  
 **rtl:** ['所属专辑', '成立日期', '海拔', '官方语言', '占地面积', '父亲', '歌手', '制片人', '导演', '首都', '主演', '董事长', '祖籍', '妻子', '母亲', '气候', '面积', '主角', '邮政编码', '简称', '出品公司', '注册资本', '编剧', '创始人', '毕业院校', '国籍', '专业代码', '朝代', '作者', '作词', '所在城市', '嘉宾', '总部地点', '人口数量', '代言人', '改编自', '校长', '丈夫', '主持人', '主题曲', '修业年限', '作曲', '号', '上映时间', '票房', '饰演', '配音', '获奖']
