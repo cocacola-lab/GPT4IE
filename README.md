@@ -53,6 +53,25 @@ PS: * denote optional, we set default value for it. But for better extraction, y
 ![ouptut](examples/NER-zh.jpg) 
 
 ---
+### EE
+This task aims to extract event from plain texts, such as **{Life-Divorce: {Person: Bob, Time: today, Place: America}}** , **{竞赛行为-晋级: {时间: 无, 晋级方: 西北狼, 晋级赛事: 中甲榜首之争}}**.
+#### Input
+- sentence: a plain text.
+- event type list (etl)* : {'event type 1': ['argument role 1', 'argument role 2', ...], ...}
+
+PS: * denote optional, we set default value for it. But for better extraction, you should specify the list according to application scenarios.
+#### Examples
+**sentence:** Bob worked for Google in Beijing, the capital of China.  
+**etl:**  ['LOC', 'MISC', 'ORG', 'PER']  
+**ouptut:**  
+![ouptut](examples/NER-eng.jpg)  
+
+**sentence:** 在过去的五年中，致公党在邓小平理论指引下，遵循社会主义初级阶段的基本路线，努力实践致公党十大提出的发挥参政党职能、加强自身建设的基本任务。   
+**rtl:** ['组织机构', '地点', '人物']  
+**ouptut:**  
+![ouptut](examples/NER-zh.jpg) 
+
+---
 
 ## Setup
 
