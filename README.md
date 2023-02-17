@@ -34,6 +34,25 @@ PS: * denote optional, we set default value for them. But for better extraction,
 ![ouptut](examples/RE-zh.jpg) 
 
 ---
+### NER
+This task aims to extract entities from plain texts, such as **(LOC, Beijing)** , **(人物, 周恩来)**.
+#### Input
+- sentence: a plain text.
+- entity type list (etl)* : ['entity type 1', 'entity type 2', ...]
+
+PS: * denote optional, we set default value for it. But for better extraction, you should specify the list according to application scenarios.
+#### Examples
+**sentence:** Bob worked for Google in Beijing, the capital of China.  
+**etl:**  ['LOC', 'MISC', 'ORG', 'PER']  
+**ouptut:**  
+![ouptut](examples/NER-eng.jpg)  
+
+**sentence:** 在过去的五年中，致公党在邓小平理论指引下，遵循社会主义初级阶段的基本路线，努力实践致公党十大提出的发挥参政党职能、加强自身建设的基本任务。   
+**rtl:** ['组织机构', '地点', '人物']  
+**ouptut:**  
+![ouptut](examples/NER-zh.jpg) 
+
+---
 
 ## Setup
 
