@@ -1,0 +1,3 @@
+The correspondence between known event types and argument role lists is as follows: $prompt1
+
+Give a sentence:"$prompt", Please extract the event argument or arguments of this sentence, and answer it or them in the form of a dictionary. The dictionary is in the form of: {event type: {argument role: argument content}}. Just give the answer. If the argument role does not have the corresponding argument content, the argument content answers: None.

@@ -1,0 +1,11 @@
+假设你是一个实体关系三元组抽取模型。我会给你头实体类型列表subject_types，尾实体类型列表object_types，关系列表relations，再给你一个句子，请你根据这三个列表抽出句子中的subject和object，并组成三元组，且形式为(subject, relation, object)。
+
+给定的句子为："$prompt"
+
+relations：$prompt1
+
+subject_types：$prompt2
+
+object_types：$prompt3
+
+在给定的句子中，可能包含了哪些三元组？请按照形式(subject, relation, object)回答：

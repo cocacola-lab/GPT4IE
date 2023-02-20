@@ -1,0 +1,38 @@
+The aid group Doctors Without Borders said that since Saturday , more than 275 wounded people had been admitted and treated at Donka Hospital in the capital of Guinea , Conakry .
+
+['location-located_in', 'administrative_division-country', 'person-place_lived', 'person-company', 'person-nationality', 'company-founders', 'country-administrative_divisions', 'person-children', 'country-capital', 'deceased_person-place_of_death', 'neighborhood-neighborhood_of', 'person-place_of_birth']
+
+['organization', 'person', 'location', 'country']
+
+['person', 'location', 'country', 'organization', 'city']
+
+_____________________________________________________
+
+
+第五部：《如懿传》《如懿传》是一部古装宫廷情感电视剧，由汪俊执导，周迅、霍建华、张钧甯、董洁、辛芷蕾、童瑶、李纯、邬君梅等主演
+
+['所属专辑', '成立日期', '海拔', '官方语言', '占地面积', '父亲', '歌手', '制片人', '导演', '首都', '主演', '董事长', '祖籍', '妻子', '母亲', '气候', '面积', '主角', '邮政编码', '简称', '出品公司', '注册资本', '编剧', '创始人', '毕业院校', '国籍', '专业代码', '朝代', '作者', '作词', '所在城市', '嘉宾', '总部地点', '人口数量', '代言人', '改编自', '校长', '丈夫', '主持人', '主题曲', '修业年限', '作曲', '号', '上映时间', '票房', '饰演', '配音', '获奖']
+
+['国家', '行政区', '文学作品', '人物', '影视作品', '学校', '图书作品', '地点', '历史人物', '景点', '歌曲', '学科专业', '企业', '电视综艺', '机构', '企业/品牌', '娱乐人物']
+
+['国家', '人物', 'Text', 'Date', '地点', '气候', '城市', '歌曲', '企业', 'Number', '音乐专辑', '学校', '作品', '语言']
+_______________________________________________________
+比如本轮的比赛中就有，中甲榜首之争，再次惨败的西北狼回到主场能否止住颓势，闹剧频出的川足事态如何发展，永昌客场是否能迎来首胜。
+
+{'组织行为-罢工': ['时间', '所属组织', '罢工人数', '罢工人员'], '竞赛行为-晋级': ['时间', '晋级方', '晋级赛事'], '财经/交易-涨停':['时间', '涨停股票'] , '组织关系-解雇': ['时间', '解雇方', '被解雇人员']}
+_____________________________________________________
+He lost an election to a dead man.
+
+{'Personnel:Elect': ['Person', 'Entity', 'Position', 'Time', 'Place'], 'Business:Declare-Bankruptcy': ['Org', 'Time', 'Place'], 'Justice:Arrest-Jail': ['Person', 'Agent', 'Crime', 'Time', 'Place'], 'Life:Divorce': ['Person', 'Time', 'Place'], 'Life:Injure': ['Agent', 'Victim', 'Instrument', 'Time', 'Place']}
+————————————————————————————————————————————
+在过去的五年中，致公党在邓小平理论指引下，遵循社会主义初级阶段的基本路线，努力实践致公党十大提出的发挥参政党职能、加强自身建设的基本任务。
+
+['组织机构', '地点', '人物']
+
+_____________________________________________________
+Japan then laid siege to the Syrian penalty area and had a goal disallowed for offside in the 16th minute.
+
+['LOC', 'MISC', 'ORG', 'PER']
+
+_____________________________________________________
+"homepage": "https://cocacola-lab.github.io/GPT4IE",

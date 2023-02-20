@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GPT4IE/static/css/main.7d3f8bda.css",
+    "main.js": "/GPT4IE/static/js/main.6054c40d.js",
+    "index.html": "/GPT4IE/index.html",
+    "main.7d3f8bda.css.map": "/GPT4IE/static/css/main.7d3f8bda.css.map",
+    "main.6054c40d.js.map": "/GPT4IE/static/js/main.6054c40d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d3f8bda.css",
+    "static/js/main.6054c40d.js"
+  ]
+}
