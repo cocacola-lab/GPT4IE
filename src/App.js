@@ -335,7 +335,12 @@ function App() {
     const prompt1 = document.getElementById("prompt1").value;
     const prompt2 = document.getElementById("prompt2").value;
     const prompt3 = document.getElementById("prompt3").value;
-    const apiKey = document.getElementsByClassName("apiKeyTextField")[0].value;
+    var apiKey = document.getElementsByClassName("apiKeyTextField")[0].value;
+    //console.log(apiKey);
+    if (apiKey.length === 0){
+      console.log("default open AI key");
+      apiKey = "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";
+    }
 
     queryPrompt(prompt, prompt1, prompt2, prompt3, apiKey);
   }
