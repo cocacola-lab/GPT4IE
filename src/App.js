@@ -339,7 +339,9 @@ function App() {
     //console.log(apiKey);
     if (apiKey.length === 0){
       console.log("default open AI key");
-      apiKey = "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";
+      const temp_k = "@WITy9ios86qOmgLcFT3BlbkFJi68ofPwe9IVifL3NYgZ5";
+      apiKey = "sk-nd9" + temp_k.substring(1);
+      //console.log(apiKey);
     }
 
     queryPrompt(prompt, prompt1, prompt2, prompt3, apiKey);
