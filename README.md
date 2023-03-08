@@ -1,5 +1,5 @@
 # GPT4IE
-we also provide a IE tool based on ChatGPT, you can see in [ChatIETool](https://github.com/cocacola-lab/ChatIE)
+we also provide a IE tool based on ChatGPT, you can see in [ChatIE](https://github.com/cocacola-lab/ChatIE)
 ## Description
 GPT4IE (GPT for Information Extraction) is a open-source and powerful IE tool [demo](https://cocacola-lab.github.io/GPT4IE/). Enhanced by GPT3.5 and prompting, it aims to automatically extract **structured information** from a **raw sentence** and make a valuable in-depth analysis of the input sentence. Harnessing valuable structured information helps corporations make incisive and business–improving decisions.
 
