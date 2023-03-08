@@ -1,6 +1,8 @@
 # GPT4IE
 **we also provide a IE tool based on ChatGPT, you can see in [ChatIE](https://github.com/cocacola-lab/ChatIE)**
 ## Description
+**Note: we set a default openai key in the tool, you can tell us if the key reach the limit.**  
+
 GPT4IE (GPT for Information Extraction) is a open-source and powerful IE tool [demo](http://124.221.16.143:8080/). Enhanced by GPT3.5 and prompting, it aims to automatically extract **structured information** from a **raw sentence** and make a valuable in-depth analysis of the input sentence. Harnessing valuable structured information helps corporations make incisive and business–improving decisions.
 
 We support the following functions:
@@ -79,5 +81,5 @@ PS: * denote optional, we set default value for it. But for better extraction, y
 1. Run `npm install` to download required dependencies.
 2. Run `npm run start`. GPT4IE should open up in a new browser tab.
 3. note: node-version v14.17.4  npm-version 9.6.0
-4. you need have an Open-AI key, for welfare, we give two keys:
+4. you need have an Open-AI key.
 
